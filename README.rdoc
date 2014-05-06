@@ -1,0 +1,38 @@
+= Bootswitch
+
+{<img src="https://travis-ci.org/nerakdon/bootswitch.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/nerakdon/bootswitch]
+
+For multi-theme sites, Bootswitch allows a site to configure the Bootswatch theme based on a method set in the initializer file.
+
+== Installation
+
+Install the gem:
+
+    gem bootswitch
+
+Run the generator:
+
+    rails g bootswitch:install
+
+Add the following to your application.css file:
+
+    @import 'bootswitch';
+
+Put this in your application.js file, below jquery:
+
+    //= require 'bootstrap'
+
+== Contributing to Bootswitch
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
+* Fork the project.
+* Start a feature/bugfix branch.
+* Commit and push until you are happy with your contribution.
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2014 Sour Cherry Web. Apache License. See LICENSE.txt for further details.
+

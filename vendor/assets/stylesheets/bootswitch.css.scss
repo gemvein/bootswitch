@@ -1,0 +1,12 @@
+/*
+ *= require_self
+ */
+
+// First import theme variables
+@import "theme/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+// And finally bootswatch theme itself
+@import "theme/layout";
