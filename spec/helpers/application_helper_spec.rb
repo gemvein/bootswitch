@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ThemeHelper do
+describe ApplicationHelper, type: :helper do
   describe '#themes' do
     it 'returns an array' do
       helper.themes.should be_an Array

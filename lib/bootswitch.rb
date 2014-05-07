@@ -3,9 +3,11 @@ module Bootswitch
   require 'haml-rails'
 
   require 'bootswitch/configuration'
-  require 'bootswitch/methods'
+  require 'bootswitch/helpers'
   require 'bootswitch/version'
   require 'bootswitch/engine'
 
   require 'bootstrap-sass'
+
+  ActionView::Base.send :include, Helpers
 end
