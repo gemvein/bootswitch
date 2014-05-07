@@ -1,5 +1,5 @@
 module ApplicationHelper
   def random_theme
-    'slate' or themes.sample
+    themes.sample
   end
 end
