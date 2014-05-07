@@ -20,8 +20,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bootswitch"
   gem.homepage = "http://github.com/nerakdon/bootswitch"
   gem.license = "MIT"
-  gem.summary = %Q{Designed to get you up and running with a customizable version of boostrap using SASS.}
-  gem.description = %Q{Bootswitch is designed to get you up and running with a customizable version of boostrap using SASS.}
+  gem.summary = %Q{For multi-theme sites, Bootswitch allows a site to configure the Bootswatch theme based on a method set in the initializer file.}
+  gem.description = %Q{For multi-theme sites, Bootswitch allows a site to configure the Bootswatch theme based on a method set in the initializer file.}
   gem.email = "webmaster@sourcherryweb.com"
   gem.authors = ["Karen Lundgren"]
   gem.version = version

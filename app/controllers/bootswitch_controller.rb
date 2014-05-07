@@ -1,2 +1,0 @@
-class BootswitchController < ApplicationController
-end

@@ -1,6 +1,6 @@
 module Bootswitch
   require 'rails'
-  require 'haml'
+  require 'haml-rails'
 
   require 'bootswitch/engine'
   require 'bootswitch/configuration'
