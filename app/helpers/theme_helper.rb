@@ -1,5 +1,7 @@
 module ThemeHelper
-  include Bootswitch
+  def themes
+    Bootswitch.configuration.themes
+  end
 
   def theme_name
     send(Bootswitch.configuration.theme_method) || Bootswitch.configuration.default_theme

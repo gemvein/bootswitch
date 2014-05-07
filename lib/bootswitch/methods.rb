@@ -1,5 +1,5 @@
 module Bootswitch
-  def themes
-
+  def self.themes
+    configuration.themes
   end
 end
