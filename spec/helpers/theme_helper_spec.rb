@@ -1,6 +1,11 @@
 require 'spec_helper'
 
 describe ThemeHelper do
+  describe '#themes' do
+    it 'returns an array' do
+      helper.themes.should be_an Array
+    end
+  end
   describe '#theme_name' do
     it 'returns the a theme name' do
       ['amelia', 'cerulean', 'cosmo', 'custom', 'cyborg', 'darkly', 'flatly','global','journal','readable','simplex','slate','spacelab','superhero','united','yeti'].should include helper.theme_name

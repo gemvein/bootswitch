@@ -2,7 +2,7 @@ module ThemeHelper
   include Bootswitch
 
   def theme_name
-    send(configuration.theme_method)
+    send(Bootswitch.configuration.theme_method) || Bootswitch.configuration.default_theme
   end
 
   def theme_stylesheet_link_tag
