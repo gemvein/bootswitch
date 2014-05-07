@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Karen Lundgren"]
-  s.date = "2014-05-06"
+  s.date = "2014-05-07"
   s.description = "Bootswitch is designed to get you up and running with a customizable version of boostrap using SASS."
   s.email = "webmaster@sourcherryweb.com"
   s.extra_rdoc_files = [
@@ -19,16 +19,104 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "vendor/assets/stylesheets/bootswitch.css.scss",
+    ".document",
+    ".rspec",
+    ".travis.yml",
+    "Gemfile",
+    "LICENSE.txt",
+    "README.rdoc",
+    "Rakefile",
+    "VERSION",
+    "app/assets/stylesheets/bootswatch/amelia/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/amelia/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/amelia/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/cerulean/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/cerulean/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/cerulean/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/cosmo/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/cosmo/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/cosmo/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/custom/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/custom/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/custom/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/cyborg/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/cyborg/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/cyborg/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/darkly/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/darkly/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/darkly/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/flatly/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/flatly/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/flatly/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/global/build.css.scss",
+    "app/assets/stylesheets/bootswatch/global/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/journal/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/journal/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/journal/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/readable/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/readable/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/readable/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/simplex/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/simplex/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/simplex/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/slate/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/slate/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/slate/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/spacelab/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/spacelab/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/spacelab/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/superhero/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/superhero/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/superhero/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/united/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/united/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/united/variables.css.scss",
+    "app/assets/stylesheets/bootswatch/yeti/bootswatch.css.scss",
+    "app/assets/stylesheets/bootswatch/yeti/theme.css.scss",
+    "app/assets/stylesheets/bootswatch/yeti/variables.css.scss",
     "app/controllers/bootswitch_controller.rb",
     "app/controllers/theme_controller.rb",
+    "app/helpers/theme_helper.rb",
+    "app/views/theme/_stylesheet_link_tag.html.haml",
+    "bootswitch.gemspec",
+    "config/routes.rb",
+    "lib/bootswitch.rb",
     "lib/bootswitch/configuration.rb",
+    "lib/bootswitch/engine.rb",
+    "lib/bootswitch/railtie.rb",
+    "lib/bootswitch/version.rb",
     "lib/generators/bootswitch/install/install_generator.rb",
     "lib/generators/bootswitch/install/templates/initializer.rb",
     "lib/generators/bootswitch/utils.rb",
+    "script/rails",
+    "spec/dummy/.rspec",
+    "spec/dummy/Rakefile",
     "spec/dummy/app/assets/javascripts/application.js",
     "spec/dummy/app/assets/stylesheets/application.css.scss",
-    "spec/dummy/app/helpers/application_helper.rb"
+    "spec/dummy/app/controllers/application_controller.rb",
+    "spec/dummy/app/helpers/application_helper.rb",
+    "spec/dummy/config.ru",
+    "spec/dummy/config/application.rb",
+    "spec/dummy/config/boot.rb",
+    "spec/dummy/config/environment.rb",
+    "spec/dummy/config/environments/development.rb",
+    "spec/dummy/config/environments/test.rb",
+    "spec/dummy/config/initializers/backtrace_silencers.rb",
+    "spec/dummy/config/initializers/bootswitch.rb",
+    "spec/dummy/config/initializers/inflections.rb",
+    "spec/dummy/config/initializers/mime_types.rb",
+    "spec/dummy/config/initializers/secret_token.rb",
+    "spec/dummy/config/initializers/session_store.rb",
+    "spec/dummy/config/initializers/wrap_parameters.rb",
+    "spec/dummy/config/routes.rb",
+    "spec/dummy/public/404.html",
+    "spec/dummy/public/422.html",
+    "spec/dummy/public/500.html",
+    "spec/dummy/public/favicon.ico",
+    "spec/dummy/public/index.html",
+    "spec/dummy/script/rails",
+    "spec/helpers/theme_helper_spec.rb",
+    "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/nerakdon/bootswitch"
   s.licenses = ["MIT"]
@@ -40,14 +128,16 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, [">= 4.1"])
-      s.add_runtime_dependency(%q<bootstrap-sass>, ["~> 3.1.1"])
+      s.add_runtime_dependency(%q<haml-rails>, [">= 0"])
+      s.add_runtime_dependency(%q<bootstrap-sass>, [">= 0"])
       s.add_runtime_dependency(%q<bootswitch>, [">= 0"])
       s.add_development_dependency(%q<rdoc>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
     else
       s.add_dependency(%q<rails>, [">= 4.1"])
-      s.add_dependency(%q<bootstrap-sass>, ["~> 3.1.1"])
+      s.add_dependency(%q<haml-rails>, [">= 0"])
+      s.add_dependency(%q<bootstrap-sass>, [">= 0"])
       s.add_dependency(%q<bootswitch>, [">= 0"])
       s.add_dependency(%q<rdoc>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
@@ -55,7 +145,8 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rails>, [">= 4.1"])
-    s.add_dependency(%q<bootstrap-sass>, ["~> 3.1.1"])
+    s.add_dependency(%q<haml-rails>, [">= 0"])
+    s.add_dependency(%q<bootstrap-sass>, [">= 0"])
     s.add_dependency(%q<bootswitch>, [">= 0"])
     s.add_dependency(%q<rdoc>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])

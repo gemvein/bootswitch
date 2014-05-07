@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 #   gem 'activesupport', '>= 2.3.5'
 
 gem 'rails', '>= 4.1'
+gem 'haml-rails'
 gem 'bootstrap-sass'
 
 # Add dependencies to develop your gem here.

@@ -1,3 +1,2 @@
-class BootswitchController < ActionController::Base
-
+class BootswitchController < ApplicationController
 end

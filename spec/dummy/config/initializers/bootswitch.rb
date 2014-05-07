@@ -1,4 +1,4 @@
 Bootswitch.configure do |config|
-  # What method should determine the theme displayed?
-  config.theme_method = :user_theme
+  # What helper method should determine the bootswatch theme displayed?
+  config.theme_method = :random_theme
 end

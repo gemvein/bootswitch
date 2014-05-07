@@ -1,0 +1,9 @@
+
+// First import bootswatch variables
+@import "./variables.css.scss";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+// And finally bootswatch bootswatch itself
+@import "./bootswatch.css.scss";
