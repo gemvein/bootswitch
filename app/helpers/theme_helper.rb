@@ -1,10 +1,8 @@
 module ThemeHelper
-  def themes
-    ['amelia', 'cerulean', 'cosmo', 'custom', 'cyborg', 'darkly', 'flatly','global','journal','readable','simplex','slate','spacelab','superhero','united','yeti']
-  end
+  include Bootswitch
 
   def theme_name
-    send(Bootswitch.configuration.theme_method)
+    send(configuration.theme_method)
   end
 
   def theme_stylesheet_link_tag

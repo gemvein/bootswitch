@@ -4,6 +4,7 @@ module Bootswitch
 
   require 'bootswitch/engine'
   require 'bootswitch/configuration'
+  require 'bootswitch/methods'
   require 'bootswitch/railtie'
   require 'bootswitch/version'
 
