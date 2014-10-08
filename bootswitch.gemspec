@@ -127,26 +127,32 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<haml-rails>, [">= 0"])
       s.add_runtime_dependency(%q<bootstrap-sass>, [">= 0"])
       s.add_runtime_dependency(%q<bootswitch>, [">= 0"])
-      s.add_development_dependency(%q<rdoc>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<shoulda-matchers>, [">= 0"])
+      s.add_development_dependency(%q<capybara>, [">= 0"])
     else
       s.add_dependency(%q<rails>, [">= 4.1"])
       s.add_dependency(%q<haml-rails>, [">= 0"])
       s.add_dependency(%q<bootstrap-sass>, [">= 0"])
       s.add_dependency(%q<bootswitch>, [">= 0"])
-      s.add_dependency(%q<rdoc>, [">= 0"])
+      s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<shoulda-matchers>, [">= 0"])
+      s.add_dependency(%q<capybara>, [">= 0"])
     end
   else
     s.add_dependency(%q<rails>, [">= 4.1"])
     s.add_dependency(%q<haml-rails>, [">= 0"])
     s.add_dependency(%q<bootstrap-sass>, [">= 0"])
     s.add_dependency(%q<bootswitch>, [">= 0"])
-    s.add_dependency(%q<rdoc>, [">= 0"])
+    s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<shoulda-matchers>, [">= 0"])
+    s.add_dependency(%q<capybara>, [">= 0"])
   end
 end
 
