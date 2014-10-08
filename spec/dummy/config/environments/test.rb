@@ -14,4 +14,6 @@ Dummy::Application.configure do
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
   config.active_support.deprecation        = :stderr
+
+  config.eager_load = false
 end
