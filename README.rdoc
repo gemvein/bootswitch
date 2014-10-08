@@ -1,8 +1,8 @@
 = Bootswitch
 
-[![Gem Version](https://badge.fury.io/rb/bootswitch.svg)](http://badge.fury.io/rb/bootswitch)
-[![Build Status](https://travis-ci.org/gemvein/bootswitch.svg)](https://travis-ci.org/gemvein/bootswitch)
-[![Coverage Status](https://coveralls.io/repos/gemvein/bootswitch/badge.png)](https://coveralls.io/r/gemvein/bootswitch)
+{<img src="https://badge.fury.io/rb/bootswitch.svg" alt="Gem Version" />}[http://badge.fury.io/rb/bootswitch]
+{<img src="https://travis-ci.org/gemvein/bootswitch.svg" alt="Build Status" />}[https://travis-ci.org/gemvein/bootswitch][!
+{<img src="https://coveralls.io/repos/gemvein/bootswitch/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/gemvein/bootswitch]
 
 For multi-theme sites, Bootswitch allows a site to configure the Bootswatch theme based on a method set in the initializer file.
 
