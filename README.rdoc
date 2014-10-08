@@ -1,6 +1,8 @@
 = Bootswitch
 
-{<img src="https://travis-ci.org/nerakdon/bootswitch.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/nerakdon/bootswitch]
+[![Gem Version](https://badge.fury.io/rb/bootswitch.svg)](http://badge.fury.io/rb/bootswitch)
+[![Build Status](https://travis-ci.org/gemvein/bootswitch.svg)](https://travis-ci.org/gemvein/bootswitch)
+[![Coverage Status](https://coveralls.io/repos/gemvein/bootswitch/badge.png)](https://coveralls.io/r/gemvein/bootswitch)
 
 For multi-theme sites, Bootswitch allows a site to configure the Bootswatch theme based on a method set in the initializer file.
 
@@ -34,5 +36,5 @@ Put this in your application.js file, below jquery:
 
 == Copyright
 
-Copyright (c) 2014 Sour Cherry Web. Apache License. See LICENSE.txt for further details.
+Copyright (c) 2014 Gem Vein. Apache License. See LICENSE.txt for further details.
 

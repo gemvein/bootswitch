@@ -4,7 +4,7 @@ require File.expand_path("../dummy/config/environment", __FILE__)
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec/rails'
-require 'rspec/autorun'
+# require 'rspec/autorun'
 require 'shoulda-matchers'
 require 'capybara/rspec'
 require 'bootswitch'
