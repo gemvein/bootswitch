@@ -5,5 +5,13 @@ module Bootswitch
         prepend_view_path Gem.loaded_specs['bootswitch'].full_gem_path + '/app/views'
       end
     end
+
+    initializer 'bootswitch.add_precompiled_assets' do |app|
+      ActiveSupport.on_load(:action_controller) do
+        for theme in Bootswitch.configuration.themes do
+          Rails.application.config.assets.precompile += ['bootswatch/' + theme + '/theme.css']
+        end
+      end
+    end
   end
 end

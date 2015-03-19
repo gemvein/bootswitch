@@ -11,4 +11,5 @@ module Bootswitch
   require 'bootstrap-sass'
 
   ActionView::Base.send :include, Helpers
+
 end
