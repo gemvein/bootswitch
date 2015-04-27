@@ -2,6 +2,9 @@
 // First import bootswatch variables
 @import "./variables.css.scss";
 
+// Tell bootstrap how to use the assets pipeline
+@import 'bootstrap-sprockets';
+
 // Then bootstrap itself
 @import "bootstrap";
 
